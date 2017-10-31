@@ -1,0 +1,25 @@
+
+@media screen and (min-width: 768px){
+  .navbar-brand img{
+    height: 45px;
+  }
+
+  .container .row .col-sm-12{
+    height: 100px;
+  }
+
+  .container .row .col-sm-3 img{
+    width:100%;
+    vertical-align:middle;
+  }
+
+  .col-sm-4 img{
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .navbar-brand img{
+    height: 30px;
+  }
+}
