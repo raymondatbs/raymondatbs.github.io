@@ -17,22 +17,61 @@
   margin-bottom: 50px;
 }
 
+
+.footer ul{
+  margin-right: 30px;
+}
+
 .footer ul li {
   color: #ffffff;
-  margin-right: 10px;
+  margin-right: 25px;
   display: inline;
+  padding-left: 0px;
 }
 
 .footer a{
   color: #ffffff;
 }
 
+.btn-size {
+  padding: 15px 25px 15px 25px;
+}
+
+.card {
+  padding: 0px 40px 0px 40px;
+  margin: 20px 0px 20px 0px;
+  /*border: 2px solid #000000;*/
+}
+
+
+.card-text{
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 5px 15px 5px 15px;
+}
+
+.card-footer{
+  background-color: #e2e2e2;
+  padding: 15px 15px 15px 15px;
+  text-align: left;
+}
 
 @media (min-width: 1001px) {
   .con-nav{
     margin-top:20px;
     margin-bottom:20px;
   }
+
+  .navbar-default .navbar-nav > li.dropdown:hover > a,
+  .navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+  .navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
 
   .con-1{
     margin-top:100px;
@@ -50,7 +89,7 @@
   }
 
   .con-3{
-    text-align: center;
+    /*text-align: center;*/
   }
 
   .con-3 p{
