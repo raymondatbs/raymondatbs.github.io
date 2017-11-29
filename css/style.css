@@ -4,7 +4,7 @@ Customeized style
 
 -------------------------------- */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1170px) {
   .navbar-brand.js-scroll-trigger img {
   width: 60%;
 }
