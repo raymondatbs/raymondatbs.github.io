@@ -13,7 +13,26 @@ Customeized style
     width: 40%;
   }
 
+  #parallax-1 {
+    display: none;
+  }
+
+  #parallax-2 {
+    display: none;
+  }
 }
+
+@media only screen and (min-width: 1171px) {
+
+  #parallax-1-s {
+    display: none;
+  }
+
+  #parallax-2-s {
+    display: none;
+  }
+}
+
 
 .customeized {
   position: relative;
