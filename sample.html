@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Very Lightweight Portfolio Filter for Bootstrap</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Very Lightweight Portfolio Filter for Bootstrap">
+		<meta name="author" content="geedmo">
+		<!-- Le styles -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<style>
+			.port-image
+{
+    width: 100%;
+}
+
+.col-md-3
+{
+    margin-bottom:20px;
+}
+
+.each-item
+{
+    position:relative;
+    overflow:hidden;
+    margin-bottom: 15px;
+}
+
+.each-item:hover .cap2, .each-item:hover .cap1
+{
+    left:0px;
+}
+
+.cap1
+{
+    position:absolute;
+    width:100%;
+    height:70%;
+    background:rgba(255, 255, 255, 0.5);
+    top:0px;
+    left:-100%;
+    padding:10px;
+
+    transition: all .5s;
+}
+
+.cap2
+{
+    position:absolute;
+    width:100%;
+    height:30%;
+    background:rgba(0, 178, 255, 0.5);
+    bottom:0px;
+    left:100%;
+    padding:10px;
+
+    transition: all .5s;
+}
+		</style>
+	</head>
+
+	<body>
+
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1>ATBS Solution Product</h1>
+        <p>When we established this company 10 years ago, we strived to reduce the number of car accident caused by non - human factors. Our goal was to create a more safety and more friendly driving environments by creating well-designed automated systems.</p>
+      </div>
+      <div class="">
+        <h2>TPMS Solution</h2>
+      </div>
+
+      <div>
+          <button class="btn btn-primary filter-button" data-filter="tpms-all">All</button>
+          <button class="btn btn-default filter-button" data-filter="photo">Sensors</button>
+          <button class="btn btn-default filter-button" data-filter="graphic">Receiver(Display)</button>
+          <button class="btn btn-default filter-button" data-filter="webdesign">Module</button>
+      </div>
+      <br/>
+
+      <div class="row">
+          <div class="col-md-4 filter1 photo">
+              <div class="each-item">
+                  <img class="port-image" src="test.jpg"/>
+                  <div class="cap1">
+                      <h3>AT63</h3>
+                      <p>A BLE TPMS sensor with bluetooth interface</p>
+                  </div>
+                  <div class="cap2">
+                      <p class="text-center">Visit</p>
+                      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="56MYCGAGL9WVW">
+                      <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_addtocart_120x26.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_addtocart_120x26.png" width="1" height="1">
+                    </form>&nbsp;
+                  </div>
+
+              </div>
+
+          </div>
+
+          <div class="col-md-4 filter1 graphic photo">
+              <div class="each-item">
+                  <img class="port-image" src="test.jpg"/>
+                  <div class="cap1">
+                      <h3>Car show</h3>
+                      <p>A car showroom for all verities of cars to display</p>
+                  </div>
+                  <div class="cap2">
+                      <p class="text-center">Visit</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 filter1 webdesign">
+              <div class="each-item">
+                  <img class="port-image" src="test.jpg"/>
+                  <div class="cap1">
+                      <h3>Car show</h3>
+                      <p>A car showroom for all verities of cars to display</p>
+                  </div>
+                  <div class="cap2">
+                      <p class="text-center">Visit</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 filter1 graphic photo">
+              <div class="each-item">
+                  <img class="port-image" src="test.jpg"/>
+                  <div class="cap1">
+                      <h3>Car show</h3>
+                      <p>A car showroom for all verities of cars to display</p>
+                  </div>
+                  <div class="cap2">
+                      <p class="text-center">Visit</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 filter1 webdesign graphic">
+              <div class="each-item">
+                  <img class="port-image" src="test.jpg"/>
+                  <div class="cap1">
+                      <h3>Car show</h3>
+                      <p>A car showroom for all verities of cars to display</p>
+                  </div>
+                  <div class="cap2">
+                      <p class="text-center">Visit</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 filter1 photo">
+              <div class="each-item">
+                  <img class="port-image" src="test.jpg"/>
+                  <div class="cap1">
+                      <h3>Car show</h3>
+                      <p>A car showroom for all verities of cars to display</p>
+                  </div>
+                  <div class="cap2">
+                      <p class="text-center">Visit</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="">
+        <h2>Filtering divs2</h2>
+      </div>
+
+      <div>
+          <button class="btn btn-primary filter-button" data-filter="obd-all">All</button>
+          <button class="btn btn-default filter-button" data-filter="1">Photo</button>
+          <button class="btn btn-default filter-button" data-filter="2">Graphic</button>
+          <button class="btn btn-default filter-button" data-filter="3">Web design</button>
+      </div>
+      <br/>
+
+      <div class="row">
+          <div class="col-md-4 filter2 1">
+              <div class="each-item">
+                  <img class="port-image" src="test.jpg"/>
+                  <div class="cap1">
+                      <h3>Car show</h3>
+                      <p>A car showroom for all verities of cars to display</p>
+                  </div>
+                  <div class="cap2">
+                      <p class="text-center">Visit</p>
+                  </div>
+
+              </div>
+
+          </div>
+
+          <div class="col-md-4 filter2 2 1">
+              <div class="each-item">
+                  <img class="port-image" src="test.jpg"/>
+                  <div class="cap1">
+                      <h3>Car show</h3>
+                      <p>A car showroom for all verities of cars to display</p>
+                  </div>
+                  <div class="cap2">
+                      <p class="text-center">Visit</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 filter2 3">
+              <div class="each-item">
+                  <img class="port-image" src="test.jpg"/>
+                  <div class="cap1">
+                      <h3>Car show</h3>
+                      <p>A car showroom for all verities of cars to display</p>
+                  </div>
+                  <div class="cap2">
+                      <p class="text-center">Visit</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 filter2 3">
+              <div class="each-item">
+                  <img class="port-image" src="test.jpg"/>
+                  <div class="cap1">
+                      <h3>Car show</h3>
+                      <p>A car showroom for all verities of cars to display</p>
+                  </div>
+                  <div class="cap2">
+                      <p class="text-center">Visit</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 filter2 1 2">
+              <div class="each-item">
+                  <img class="port-image" src="test.jpg"/>
+                  <div class="cap1">
+                      <h3>Car show</h3>
+                      <p>A car showroom for all verities of cars to display</p>
+                  </div>
+                  <div class="cap2">
+                      <p class="text-center">Visit</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4 filter2 1">
+              <div class="each-item">
+                  <img class="port-image" src="test.jpg"/>
+                  <div class="cap1">
+                      <h3>Car show</h3>
+                      <p>A car showroom for all verities of cars to display</p>
+                  </div>
+                  <div class="cap2">
+                      <p class="text-center">Visit</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+		<!-- /container -->
+
+		<!-- Footer
+		================================================== -->
+		<footer class="footer">
+			<div class="container">
+				<hr>
+				<p>
+					by Geedmo.
+				</p>
+				<p>
+					2013 &copy; All rights shared.
+				</p>
+			</div>
+		</footer>
+		<!-- Le javascript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+
+  </body>
+	<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+
+        if(value == "tpms-all"){
+            //$('.filter').removeClass('hidden');
+            $(".filter1").hide();
+            $('.filter1').fadeIn('1000');
+        }
+
+        else if(value == "obd-all"){
+            $(".filter2").hide();
+            $('.filter2').fadeIn('1000');
+        }
+
+        else if(value == "photo" || value == "graphic" ||  value == "webdesign" ){
+          // $('.filter1[filter-item="'+value+'"]').removeClass('hidden');
+          // $(".filter1").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+          $(".filter1").hide();
+          $(".filter1").not('.'+value).fadeOut('3000');
+          $('.filter1').filter('.'+value).fadeIn('3000');
+        }
+
+        else if(value == "1" || value == "2" ||  value == "3" ){
+          // $('.filter1[filter-item="'+value+'"]').removeClass('hidden');
+          // $(".filter1").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+          $(".filter2").hide();
+          $(".filter2").not('.'+value).fadeOut('3000');
+          $('.filter2').filter('.'+value).fadeIn('3000');
+        }
+
+    });
+
+});
+  </script>
+</html>
