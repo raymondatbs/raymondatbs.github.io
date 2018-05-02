@@ -4,13 +4,13 @@ Customeized style
 
 -------------------------------- */
 
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 970px) {
   .navbar-brand.js-scroll-trigger img {
     width: 60%;
   }
 
   .img-fluid.d-block.mx-auto{
-    width: 40%;
+    width: 80%;
   }
 
   #parallax-1 {
@@ -128,7 +128,7 @@ Modules - reusable parts of our design
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
-  max-width: 1170px;
+  max-width: 970px;
   margin: 0 auto;
 }
 .cd-container::after {
@@ -154,7 +154,7 @@ header h1 {
   font-size: 18px;
   font-size: 1.125rem;
 }*/
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 970px) {
 /*  header {
     height: 300px;
     line-height: 300px;
@@ -181,7 +181,7 @@ header h1 {
   width: 4px;
   background: #d7e4ed;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 970px) {
   #cd-timeline {
     margin-top: 3em;
     margin-bottom: 3em;
@@ -207,7 +207,7 @@ header h1 {
 .cd-timeline-block:last-child {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 970px) {
   .cd-timeline-block {
     margin: 4em 0;
   }
@@ -277,7 +277,7 @@ header h1 {
 .cd-timeline-img.cd-location {
   background: #f0ca45;
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 970px) {
   .cd-timeline-img {
     width: 100px;
     height: 100px;
@@ -422,7 +422,7 @@ header h1 {
     font-size: 0.875rem;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 970px) {
   .cd-timeline-content {
     margin-left: 0;
     padding: 1.6em;
@@ -474,7 +474,7 @@ header h1 {
   }
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 970px) {
   /* inverse bounce effect on even content blocks */
   .cssanimations .cd-timeline-block:nth-child(even) .cd-timeline-content.bounce-in {
     -webkit-animation: cd-bounce-2-inverse 0.6s;
